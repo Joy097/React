@@ -1,10 +1,11 @@
 const container = document.querySelector('#root');
 const Increment = () =>
 {
+    const [counter, setCounter] = React.useState(0)
     return (<div>
-    <h1 id="display">0</h1>
+    <h1 id="display">{counter}</h1>
     <div>
-        <button id="button">Increment +</button>
+        <button id="button" c>Increment +</button>
     </div>
     </div>);
 }
