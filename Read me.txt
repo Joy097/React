@@ -1,2 +1,0 @@
-1. Next.js is a framework of react and react is promoting to shift there for production purposes.
-2. 
