@@ -5,11 +5,12 @@ const Increment = () =>
     return (<div>
     <h1 id="display">{counter}</h1>
     <div>
-        <button id="button" c>Increment +</button>
+        <button id="button" onClick={()=>setCounter(counter+1)}>Increment +</button>
     </div>
     </div>);
 }
 
 
 
-ReactDOM.render(Increment(), container);
+ReactDOM.render(
+<div<Increment/>, container);
