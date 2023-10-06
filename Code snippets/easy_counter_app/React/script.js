@@ -1,8 +1,14 @@
 const container = document.querySelector('#root');
-const element = (
+const Increment = () =>
+{
+    return (<div>
+    <h1 id="display">0</h1>
     <div>
-        <h1 id="display">0</h1>
+        <button id="button">Increment +</button>
     </div>
-);
+    </div>);
+}
 
-ReactDOM.render(element, container);
+
+
+ReactDOM.render(Increment(), container);
