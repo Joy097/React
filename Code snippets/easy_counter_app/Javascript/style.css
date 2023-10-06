@@ -22,7 +22,7 @@ h1 {
 }
 .container {
   background-color: #f0f2f5;
-  height: 100vh;
+  height: 25vh;
   display: flex;
   align-items: center;
   justify-content: center;
