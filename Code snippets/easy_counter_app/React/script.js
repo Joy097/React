@@ -1,7 +1,8 @@
 const container = document.querySelector('#root');
-const element = React.createElement("div", null, 
-[React.createElement("p",null, "hello world"),
-React.createElement("p",null, "hello world"),
-React.createElement("p",null, "hello world")]);
+const element = (
+    <div>
+        <h1 id="display">0</h1>
+    </div>
+);
 
 ReactDOM.render(element, container);
