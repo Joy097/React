@@ -13,4 +13,8 @@ const Increment = () =>
 
 
 ReactDOM.render(
-<div<Increment/>, container);
+<div class="container">
+<Increment/>
+<Increment/>
+<Increment/>
+</div>, container);
