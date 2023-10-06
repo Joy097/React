@@ -7,14 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div>
-            <h1 id="display">0</h1>
-            <div>
-                <button id="button">Increment +</button>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>  
-</body>
+    <div id="root"></div>
+
+    <!-- Load React. -->
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="./script.js"></script>
+  </body>
 </html>
