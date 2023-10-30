@@ -4,7 +4,7 @@ import Header from "./component/Header";
 import Hero from "./component/Hero";
 
 const App = () => {
-  let marks = 100;
+  let marks = 20;
   return (
     <div>
         {(()=>{
