@@ -6,7 +6,7 @@ import Hero from "./component/Hero";
 const App = () => {
   let status = false;
 
-  if (status=true){
+  if (status==true){
     return (
       <div>
         <h1>Login Status</h1>
