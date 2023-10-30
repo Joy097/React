@@ -20,7 +20,7 @@ const App = () => {
         <ul>
           {
             arr.map((item,i)=>{
-              return<li></li>
+              return<li>{item}</li>
             })
           }
         </ul>
