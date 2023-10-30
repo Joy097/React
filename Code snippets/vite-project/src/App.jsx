@@ -9,7 +9,10 @@ const App = () => {
     <div>
         {(()=>{
           if(marks>80){
-            return ""
+            return "Good boy"
+          }
+          else{
+            return "Bad boy"
           }
         })()}
     </div>
