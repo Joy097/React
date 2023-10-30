@@ -6,7 +6,20 @@ import Hero from "./component/Hero";
 const App = () => {
   let status = true;
 
-  if (status=true)
+  if (status=true){
+    return (
+      <div>
+
+      </div>
+    );
+  }
+  else{
+    return (
+      <div>
+
+      </div>
+    );
+  }
 };
 
 export default App;
