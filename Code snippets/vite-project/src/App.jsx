@@ -8,7 +8,9 @@ const App = () => {
   return (
     <div>
         {(()=>{
-          
+          if(marks>80){
+            return ""
+          }
         })()}
     </div>
   );
