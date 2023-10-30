@@ -5,7 +5,7 @@ import Hero from "./component/Hero";
 
 const App = () => {
   let marks = 20;
-  let arr = ['mango',];
+  let arr = ['mango','jambura','komla','apel'];
   return (
     <div>
         {(()=>{
@@ -20,7 +20,7 @@ const App = () => {
         <ul>
           {
             arr.map((item,i)=>{
-
+              return<li></li>
             })
           }
         </ul>
