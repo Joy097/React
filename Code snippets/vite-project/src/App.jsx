@@ -7,9 +7,9 @@ const App = () => {
   let marks = 100;
   return (
     <div>
-        {(
+        {(()=>{
           
-        )}
+        })()}
     </div>
   );
 };
