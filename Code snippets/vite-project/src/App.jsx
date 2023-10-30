@@ -19,7 +19,9 @@ const App = () => {
 
         <ul>
           {
-            arr
+            arr.map((item,i)=>{
+              
+            })
           }
         </ul>
     </div>
