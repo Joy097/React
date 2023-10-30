@@ -5,6 +5,7 @@ import Hero from "./component/Hero";
 
 const App = () => {
   let marks = 20;
+  
   return (
     <div>
         {(()=>{
