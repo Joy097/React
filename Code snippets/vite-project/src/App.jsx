@@ -9,15 +9,15 @@ const App = () => {
   if (status=true){
     return (
       <div>
-
+        <h1>Login Status</h1>
       </div>
     );
   }
   else{
     return (
       <div>
-
-      </div>
+        <h1>Login Status</h1>      
+        </div>
     );
   }
 };
