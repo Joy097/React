@@ -4,11 +4,10 @@ const header = ()=>{
 
 const CDRen_switch = () => {
     const status = true;
+    header();
     switch(status){
         case true:
-            return (
-            {header()}
-            <button>Logout</button>)
+            return <button>Logout</button>
         case false:
             return <button>Login</button>
         default:
