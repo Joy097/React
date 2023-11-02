@@ -6,9 +6,9 @@ const Child1 = (props) => {
             <h1>{props.title}</h1>
             <h2>{props.description}</h2>
             <ul>
-                <li>Name:{props.item.}</li>
-                <li>Age:{}</li>
-                <li>City:{}</li>
+                <li>Name: {props.item['name']}</li>
+                <li>Age: {props.item['age']}</li>
+                <li>City: {props.item['city']}</li>
             </ul>
         </div>
     );
