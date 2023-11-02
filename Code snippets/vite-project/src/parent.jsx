@@ -14,7 +14,7 @@ const PARENT = () => {
     return (
         <div>
             <Child1 
-            
+            BtnClick={func}
             item={ItemObj}
             title="This is passing props"
             description="This passing props description"
