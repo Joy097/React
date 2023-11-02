@@ -4,7 +4,7 @@ const CDRen_ternary = () => {
     let status = true
     return (
         <div>
-            {
+            {   
                 status?
                 <button>Logout</button>
                 :
