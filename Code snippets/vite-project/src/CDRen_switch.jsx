@@ -10,6 +10,7 @@ const CDRen_switch = () => {
                 <div>
                     {header()}
                     <button>Logout</button>
+                    <br/>
                 </div>
             )
         case false:

@@ -6,6 +6,9 @@ const CDRen_ternary = () => {
         <div>
             {
                 status?
+                <button>Logout</button>
+                :
+                <button>Login</button>
             }
         </div>
     );
