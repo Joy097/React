@@ -3,7 +3,7 @@ import React from 'react';
 const Child1 = (props) => {
     return (
         <div>
-            {props}
+            <h1>{props.title}</h1>
         </div>
     );
 };
