@@ -1,8 +1,10 @@
 
 const CDRen_switch = () => {
-    return (
-
-    );
+    const status = true;
+    switch(status){
+        case true:
+            retu
+    }
 };
 
 export default CDRen_switch;
