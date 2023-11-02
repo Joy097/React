@@ -8,7 +8,7 @@ const PARENT = () => {
     }
 
     const func = ()=>{
-        alert("say hello!")
+        alert("Function passed!")
     }
 
     return (

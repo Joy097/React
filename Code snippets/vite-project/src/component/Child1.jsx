@@ -11,7 +11,7 @@ const Child1 = (props) => {
                 <li>City: {props.item['city']}</li>
             </ul>
 
-            <button onClick={props.BtnClick}></button>
+            <button onClick={props.BtnClick}>Pass Function</button>
         </div>
     );
 };
