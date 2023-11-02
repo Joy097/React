@@ -5,7 +5,11 @@ const Child1 = (props) => {
         <div>
             <h1>{props.title}</h1>
             <h2>{props.description}</h2>
-            <p>{props.ItemObj.name}</p>
+            <ul>
+                <li>Name:{props.item.}</li>
+                <li>Age:{}</li>
+                <li>City:{}</li>
+            </ul>
         </div>
     );
 };
