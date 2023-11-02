@@ -12,6 +12,7 @@ const CDRen_ifelse = () => {
         <div>
             <h1>Login status(if else)</h1>
             {LoginStatus(false)}
+            <br/>
         </div>
     );
 };
