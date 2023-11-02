@@ -4,7 +4,7 @@ const PARENT = () => {
     return (
         <div>
             <Child1 title="This is passing props"
-            description=/>
+            description="This passing props description"/>
         </div>
     );
 };
