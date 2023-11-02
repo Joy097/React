@@ -1,3 +1,4 @@
+import Child1 from "./component/Child1";
 
 const PARENT = () => {
     return (
