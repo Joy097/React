@@ -1,6 +1,5 @@
-import React from 'react';
 
-const parent = () => {
+const PARENT = () => {
     return (
         <div>
             
@@ -8,4 +7,4 @@ const parent = () => {
     );
 };
 
-export default parent;
+export default PARENT;
