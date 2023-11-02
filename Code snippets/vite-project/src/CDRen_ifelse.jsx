@@ -1,3 +1,11 @@
+const LoginStatus=(status)=>{
+    if (status){
+        return 
+    }
+}
+
+
+
 const CDRen_ifelse = () => {
     const status = false;
     if (status==true) {
