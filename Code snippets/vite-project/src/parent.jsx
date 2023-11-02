@@ -1,9 +1,10 @@
 import Child1 from "./component/Child1";
 
 const PARENT = () => {
-    const item = {
+    const itemObj = {
         name: "Joy",
-        
+        age: 76,
+        city:"Dhaka"
     }
     return (
         <div>
