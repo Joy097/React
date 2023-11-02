@@ -1,3 +1,6 @@
+const header = ()=>{
+    return <h1
+};
 
 const CDRen_switch = () => {
     const status = true;
@@ -7,7 +10,7 @@ const CDRen_switch = () => {
         case false:
             return <button>Login</button>
         default:
-            
+            return null
     }
 };
 
