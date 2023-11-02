@@ -6,6 +6,10 @@ const PARENT = () => {
         age: 76,
         city:"Dhaka"
     }
+
+    const func = ()=>{
+        return 
+    }
     return (
         <div>
             <Child1 
