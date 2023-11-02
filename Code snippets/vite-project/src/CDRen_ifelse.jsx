@@ -1,6 +1,9 @@
 const LoginStatus=(status)=>{
     if (status){
-        return <button></button>
+        return <button>Logout Btn</button>
+    }
+    else{
+        return <button>Login Btn</button>
     }
 }
 
@@ -8,7 +11,9 @@ const LoginStatus=(status)=>{
 
 const CDRen_ifelse = () => {
     return (
-        <
+        <div>
+            <h1>Login status</h1>
+        </div>
     );
 };
 
