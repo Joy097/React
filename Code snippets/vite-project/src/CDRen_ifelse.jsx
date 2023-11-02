@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CD_format = () => {
+const CDRen_ifelse = () => {
     return (
         <div>
             
