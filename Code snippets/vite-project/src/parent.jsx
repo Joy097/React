@@ -8,14 +8,17 @@ const PARENT = () => {
     }
 
     const func = ()=>{
-        return 
+        alert("say hello!")
     }
+
     return (
         <div>
             <Child1 
+            
             item={ItemObj}
             title="This is passing props"
-            description="This passing props description"/>
+            description="This passing props description"
+            />
         </div>
     );
 };
