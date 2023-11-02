@@ -10,6 +10,8 @@ const Child1 = (props) => {
                 <li>Age: {props.item['age']}</li>
                 <li>City: {props.item['city']}</li>
             </ul>
+
+            <button onClick={props.BtnClick}></button>
         </div>
     );
 };
