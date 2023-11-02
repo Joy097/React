@@ -8,11 +8,14 @@ const CDRen_switch = () => {
         case true:
             return (
                 <div>
+                    {header()}
                     <button>Logout</button>
                 </div>
             )
         case false:
-            return (<div>
+            return (
+            <div>
+                {header()}
                 <button>Login</button>
             </div>)
         default:
