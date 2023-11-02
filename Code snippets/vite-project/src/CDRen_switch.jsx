@@ -3,7 +3,11 @@ const CDRen_switch = () => {
     const status = true;
     switch(status){
         case true:
-            retu
+            return <button>Logout</button>
+        case false:
+            return <button>Login</button>
+        default:
+            
     }
 };
 
