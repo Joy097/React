@@ -1,5 +1,8 @@
 // Onclick handler
 const Res_2_evnt = () => {
+    function Demo(){
+        alert('')
+    }
     return (
         <div>
             <button onClick={alert("Click")}>Onclick handler direct</button>
