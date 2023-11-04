@@ -1,8 +1,7 @@
 import {useRef} from 'react';
 
 const Hook_useRef_input = () => {
-    const fname = useRef()
-    const lname = useRef()
+    let fname,lname = useRef()
 
     const action = ()=>{
         let val1 = fname.current.value
