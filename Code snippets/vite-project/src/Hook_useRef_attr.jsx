@@ -4,7 +4,7 @@ const Hook_useRef_attr = () => {
 
     const hook1 = useRef()
     const action = ()=>{
-        
+        hook1.current.src = 'https://i.postimg.cc/KjK1wL3c/bulb-off.png'
     }
     return (
         <div>
