@@ -1,11 +1,12 @@
-import {ise} from 'react';
+import {useRef} from 'react';
 
 const Hook_useRef_input = () => {
-    const fname = 
+    const fname = useRef()
+    const lname = useRef()
     return (
         <div>
-            <input placeholder='FirstName'/>
-            <input placeholder='LastName'/>
+            <input ref={fname}placeholder='FirstName'/>
+            <input ref={lname} placeholder='LastName'/>
             <button onClick={submit}></button>
         </div>
     );
