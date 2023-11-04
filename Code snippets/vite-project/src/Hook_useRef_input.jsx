@@ -5,7 +5,7 @@ const Hook_useRef_input = () => {
     const lname = useRef()
 
     const action = ()=>{
-        fname.
+        fname.current.value
     }
     return (
         <div>
