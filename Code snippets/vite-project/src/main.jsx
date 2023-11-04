@@ -9,6 +9,7 @@ import PARENT from './PARENT';
 import Res_2_evnt_Btn from './Res_2_evnt_Btn'
 import Res_2_evnt_Form from './Res_2_evnt_Form'
 import Hook_useRef from './Hook_useRef'
+import Hook_useRef_attr from './Hook_useRef_attr'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,5 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Res_2_evnt_Btn/>
     <Res_2_evnt_Form/>
     <Hook_useRef/>
+    <Hook_useRef_attr/>
   </React.StrictMode>,
 )

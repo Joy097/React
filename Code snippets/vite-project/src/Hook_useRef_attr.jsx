@@ -9,6 +9,7 @@ const Hook_useRef_attr = () => {
     return (
         <div>
             <img ref={hook1} src='https://i.postimg.cc/6QyTynzr/bulb-on.png'></img>
+            <button>Lights</button>
         </div>
     );
 };
