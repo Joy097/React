@@ -3,9 +3,13 @@ import {useRef} from 'react';
 const Hook_useRef_input = () => {
     const fname = useRef()
     const lname = useRef()
+
+    const action = ()=>{
+        fname.
+    }
     return (
         <div>
-            <input ref={fname}placeholder='FirstName'/>
+            <input ref={fname} placeholder='FirstName'/>
             <input ref={lname} placeholder='LastName'/>
             <button onClick={submit}></button>
         </div>
