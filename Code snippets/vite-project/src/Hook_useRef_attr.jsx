@@ -5,7 +5,8 @@ const Hook_useRef_attr = () => {
     const hook1 = useRef()
     const action = ()=>{
         hook1.current.src = 'https://i.postimg.cc/KjK1wL3c/bulb-off.png'
-        hook1.setAttribute
+        hook1.current.setAttribute('height','200px')
+        hook1.current.setAttribute('width','200px')
     }
     return (
         <div>
