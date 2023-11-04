@@ -1,5 +1,5 @@
 // Onclick handler
-const Res_2_evnt = () => {
+const Res_2_evnt_Btn = () => {
     function Demo(){
         alert('Normal Function')
     }
@@ -12,4 +12,4 @@ const Res_2_evnt = () => {
     );
 };
 
-export default Res_2_evnt;
+export default Res_2_evnt_Btn;
