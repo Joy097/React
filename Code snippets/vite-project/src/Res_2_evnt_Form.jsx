@@ -4,6 +4,8 @@ const Res_2_evnt_Form = () => {
 
     const PostFormData=(event)=>{
         event.preventDefault();
+        //do desired operations
+        alert('Cliked me')
     };
 
     return (
