@@ -5,10 +5,10 @@ const Res_2_evnt_Form = () => {
         <div>
             <form>
                 <input/>
-                <button type="Submit">Submit</button>
+                <button type="submit">Submit</button>
             </form>
         </div>
     );
 };
 
-export default Res_2_evnt_Form;
+export default Res_2_evnt_Form; 
