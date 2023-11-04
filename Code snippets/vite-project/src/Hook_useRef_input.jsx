@@ -14,7 +14,7 @@ const Hook_useRef_input = () => {
         <div>
             <input ref={fname} placeholder='FirstName'/>
             <input ref={lname} placeholder='LastName'/>
-            <button onClick={submit}></button>
+            <button onClick={action}></button>
         </div>
     );
 };
