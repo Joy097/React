@@ -6,6 +6,7 @@ import CDRen_ternary from './CDRen_ternary'
 import CDRen_logi_and from './CDRen_logi_and'
 import CDRen_Im_invoke from './CDRen_Im_invoke'
 import PARENT from './PARENT';
+import Res_2_evnt from './Res_2_evnt'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <CDRen_logi_and/>
     <CDRen_Im_invoke/>
     <PARENT/>
-    <Res
+    <Res_2_evnt/>
   </React.StrictMode>,
 )
