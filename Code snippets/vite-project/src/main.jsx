@@ -15,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <CDRen_logi_and/>
     <CDRen_Im_invoke/>
     <PARENT/>
+    <Res
   </React.StrictMode>,
 )

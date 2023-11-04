@@ -2,7 +2,7 @@
 const Res_2_evnt = () => {
     return (
         <div>
-            <button onClick={}>Submit</button>
+            <button onClick={alert("Click")}>Onclick handler direct</button>
         </div>
     );
 };
