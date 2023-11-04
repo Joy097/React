@@ -19,5 +19,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <PARENT/>
     <Res_2_evnt_Btn/>
     <Res_2_evnt_Form/>
+    <
   </React.StrictMode>,
 )
