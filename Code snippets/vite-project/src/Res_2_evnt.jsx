@@ -7,7 +7,7 @@ const Res_2_evnt = () => {
         <div>
             <button onClick={alert("Click")}>Onclick handler direct</button>
             <button onClick={()=>{alert("Click")}}>Onclick handler after click</button>
-            <button onClick={()=>{alert("Click")}}>Onclick handler after click</button>
+            <button onClick={Demo}>Onclick handler noraml function</button>
         </div>
     );
 };
