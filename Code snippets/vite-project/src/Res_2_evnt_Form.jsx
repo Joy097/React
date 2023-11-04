@@ -2,8 +2,8 @@ import React from 'react';
 
 const Res_2_evnt_Form = () => {
 
-    const PostFormData=()=>{
-
+    const PostFormData=(event)=>{
+        event.preventDefault();
     };
 
     return (
