@@ -4,7 +4,8 @@ const Res_2_evnt_Form = () => {
     return (
         <div>
             <form>
-                <input></input>
+                <input/>
+                <button type="Submit">Submit</button>
             </form>
         </div>
     );
