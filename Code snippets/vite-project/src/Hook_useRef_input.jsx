@@ -4,7 +4,8 @@ const Hook_useRef_input = () => {
     return (
         <div>
             <input placeholder='FirstName'/>
-            <input placeholder='FirstName'/>
+            <input placeholder='LastName'/>
+            <
         </div>
     );
 };
