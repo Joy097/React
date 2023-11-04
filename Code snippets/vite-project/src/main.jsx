@@ -24,6 +24,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Res_2_evnt_Form/>
     <Hook_useRef/>
     <Hook_useRef_attr/>
-    <Hook_useRef_input/>
   </React.StrictMode>,
 )
