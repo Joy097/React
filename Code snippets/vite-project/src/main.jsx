@@ -13,7 +13,7 @@ import Hook_useRef_attr from './Hook_useRef_attr'
 import Hook_useRef_input from './Hook_useRef_input'
 import Hook_useRef_css from './Hook_useRef_css'
 import 'bootstrap';
-import 'boot'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
