@@ -5,8 +5,8 @@ const Hook_useRef_css = () => {
     let cssHeader={useRef}
 
     const change = () =>{
-        cssHeader.classList.remove=
-        cssHeader.
+        cssHeader.classList.remove('text-sucess')
+        cssHeader.classList.add('text-danger')
     }
     return (
         <div>
