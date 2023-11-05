@@ -12,6 +12,8 @@ import Hook_useRef from './Hook_useRef'
 import Hook_useRef_attr from './Hook_useRef_attr'
 import Hook_useRef_input from './Hook_useRef_input'
 import Hook_useRef_css from './Hook_useRef_css'
+import 'bootstrap';
+import 'boot'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
