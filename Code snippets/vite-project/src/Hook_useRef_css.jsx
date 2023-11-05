@@ -6,7 +6,7 @@ const Hook_useRef_css = () => {
     }
     return (
         <div>
-            <button 
+            <button onClick={change}> Change CSS</button>
         </div>
     );
 };
