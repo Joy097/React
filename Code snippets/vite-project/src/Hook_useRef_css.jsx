@@ -1,9 +1,12 @@
 import {useRef} from 'react';
 
 const Hook_useRef_css = () => {
+
+    let cssHeader={useRef}
+
     const change = () =>{
-        let cssHeader={useRef}
         cssHeader.
+        cssHeader.current.
     }
     return (
         <div>
