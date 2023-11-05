@@ -5,7 +5,8 @@ const Hook_useRef_Mutable = () => {
     let num = useRef(0)
 
     let change = ()=>{
-
+        num.current++
+        console.log(num.current)
     }
 
     return (
