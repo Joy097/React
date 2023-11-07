@@ -21,6 +21,8 @@ const Hook_useState_obj = () => {
 
     return (
         <div>
+            <h2>{myObj.key1}</h2>
+            <h2>{myObj.key2}</h2>
             <h2>{myObj.key3}</h2>
             <button onClick={change}>Change</button>
         </div>
