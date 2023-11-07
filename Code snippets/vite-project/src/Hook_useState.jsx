@@ -1,6 +1,8 @@
-import React from 'react';
+import { useState } from "react";
+import React,useState from 'react';
 
 const Hook_useState = () => {
+    const [number,setNum] = useState();
     return (
         <div>
             <h2>Number: </h2>
