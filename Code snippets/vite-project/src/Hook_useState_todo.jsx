@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const Hook_useState_todo = () => {
     return (
         <div>
-            <button></button>
+            <input onChange={}/>
+            <button>Add</button>
         </div>
     );
 };
