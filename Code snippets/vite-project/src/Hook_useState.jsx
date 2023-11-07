@@ -9,7 +9,7 @@ const Hook_useState = () => {
     return (
         <div>
             <h2>Number: {number}</h2>
-            <button >Increase (useState) </button>
+            <button onClick={setNum}>Increase (useState)</button>
         </div>
     );
 };
