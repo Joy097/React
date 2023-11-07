@@ -5,7 +5,9 @@ const Hook_useState_todo = () => {
     const [item, setItem] = useState("");
     return (
         <div>
-            <input onChange={(e)=>{setItem(e.target)}}/>
+            <h1>ToD</h1>
+            <p>{item}</p>
+            <input onChange={(e)=>{setItem(e.target.value)}}/>
             <button>Add</button>
         </div>
     );
