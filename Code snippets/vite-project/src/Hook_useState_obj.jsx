@@ -22,7 +22,7 @@ const Hook_useState_obj = () => {
     return (
         <div>
             <h2>{myObj.key3}</h2>
-            <button></button>
+            <button onClick={change}>Change</button>
         </div>
     );
 };
