@@ -2,14 +2,14 @@ import React, {useState}  from 'react';
 
 const Hook_useState = () => {
     const [number,setNum] = useState();
-    const setNum = () => {
-        
+    const change = () => {
+        setNum(number+1);
     }
 
     return (
         <div>
-            <h2>Number: </h2>
-            <button>Increase (useState) </button>
+            <h2>Number: {number}</h2>
+            <button >Increase (useState) </button>
         </div>
     );
 };
