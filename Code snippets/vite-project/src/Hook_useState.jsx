@@ -8,8 +8,8 @@ const Hook_useState = () => {
 
     return (
         <div>
-            <h2>useState Increase: {num}</h2>
-            <button onClick={change}></button>
+            <h2>useState : {num}</h2>
+            <button onClick={change}>Increase</button>
         </div>
     );
 };
