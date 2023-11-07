@@ -13,6 +13,8 @@ const Hook_useState_obj = () => {
             prevObj=>({
                 ...prevObj,
                 key1: "new value1",
+                key2: "new value2",
+                key3: "new value3"
             })
         )
     }
