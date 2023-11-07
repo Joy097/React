@@ -1,17 +1,15 @@
-import {useRef} from 'react';
+import React,{useRef} from 'react';
 
 const Hook_useRef_Mutable = () => {
-
     let num = useRef(0)
-
-    let change = ()=>{
-        num.current++
+    let action = ()=>{
+        num.current++;
         console.log(num.current)
     }
 
     return (
         <div>
-            <button onClick={change}>Change Mutable on back</button>
+            <button onClick={action}>Mutable useRef Hook</button>
         </div>
     );
 };

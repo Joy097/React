@@ -15,6 +15,7 @@ import Hook_useRef_css from './Hook_useRef_css'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hook_useRef_Mutable from './Hook_useRef_Mutable'
+import Hook_useRef_cache from './Hook_useRef_cache'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -31,5 +32,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hook_useRef_input/>
     <Hook_useRef_css/>
     <Hook_useRef_Mutable/>
+    <Hook_useRef_cache/>
   </React.StrictMode>,
 )
