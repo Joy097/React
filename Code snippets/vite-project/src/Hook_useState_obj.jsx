@@ -1,8 +1,8 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const Hook_useState_obj = () => {
 
-    const 
+    const [myObj, setObj] = 
 
     return (
         <div>
