@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const Hook_useState = () => {
+    const [num, setNum] = 
     return (
         <div>
-            <h2></h2>
+            <h2>useState Increase: </h2>
         </div>
     );
 };
