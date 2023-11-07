@@ -9,7 +9,7 @@ const Hook_useState_obj = () => {
     })
 
     const change = ()=>{
-        
+        prevObj
     }
 
     return (
