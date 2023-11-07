@@ -1,15 +1,9 @@
-import React, {useState}  from 'react';
+import React from 'react';
 
 const Hook_useState = () => {
-    const [number,setNum] = useState();
-    const change = () => {
-        setNum(number+1);
-    }
-
     return (
         <div>
-            <h2>Number: {number}</h2>
-            <button onClick={change}>Increase (useState)</button>
+            <h2></h2>
         </div>
     );
 };
