@@ -8,6 +8,10 @@ const Hook_useState_obj = () => {
         key3: "value3"
     })
 
+    const change = ()=>{
+        
+    }
+
     return (
         <div>
             <h2>{myObj.key3}</h2>
