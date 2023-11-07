@@ -26,7 +26,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <CDRen_logi_and/>
     <CDRen_Im_invoke/>
     <PARENT/>
-    <Res_2_evnt_Btn/>
     <Res_2_evnt_Form/>
     <Hook_useRef/>
     <Hook_useRef_attr/>
