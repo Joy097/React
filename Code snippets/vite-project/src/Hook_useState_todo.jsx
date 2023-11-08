@@ -6,12 +6,11 @@ const Hook_useState_todo = () => {
 
     const add2List = ()=>{
         list.push(item)
-        setList([])
     }
 
     return (
         <div>
-            <input onChange={(e)=>useState(e.target.value)}/>
+            <input onChange={(e)=>setItem(e.target.value)}/>
             <button onClick={add2List}>Add</button>
         </div>
     );
