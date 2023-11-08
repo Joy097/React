@@ -7,8 +7,10 @@ const Hook_useState_todo = () => {
     const add2List = ()=>{
 
     }
+
     return (
         <div>
+            <input onChange={(e)=>useState(e.target.value)}/>
             <button onClick={add2List}>Add</button>
         </div>
     );
