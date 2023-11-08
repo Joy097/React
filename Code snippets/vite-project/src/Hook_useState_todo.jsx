@@ -11,20 +11,9 @@ const Hook_useState_todo = () => {
 
     return (
         <div>
-            <table>
-                <tbody>{
-                    list.length !=0?(
-                        list.map((element, index)=>{
-                            return(
-                                <tr>
-                                    <td>{element}</td>
-                                    <td><button>Remove</button></td>
-                                </tr>
-                            )
-                        })
-                    ):(<tr></tr>)
-                    }</tbody>
-            </table>
+            <table><tbody>
+                {}
+                </tbody></table>
             <input onChange={(e)=>setItem(e.target.value)}/>
             <button onClick={add2List}>Add</button>
         </div>
