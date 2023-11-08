@@ -13,7 +13,9 @@ const Hook_useState_todo = () => {
         <div>
             <table>
                 <tbody>{
-                    list.length !=0?():()
+                    list.length !=0?(
+                        list.map((element, index))
+                    ):(<tr></tr>)
                     }</tbody>
             </table>
             <input onChange={(e)=>setItem(e.target.value)}/>
