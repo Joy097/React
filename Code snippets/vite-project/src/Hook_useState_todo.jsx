@@ -8,7 +8,8 @@ const Hook_useState_todo = () => {
     })
 
     const change = ()=>{
-        
+        setObj(prevObj=>{...prevObj,
+        })
     }
 
     return (
