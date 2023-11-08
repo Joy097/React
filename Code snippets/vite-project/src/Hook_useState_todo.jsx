@@ -6,7 +6,7 @@ const Hook_useState_todo = () => {
 
     const add2List = ()=>{
         list.push(item)
-        console.log(list)
+        setList
     }
 
     return (
