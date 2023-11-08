@@ -14,10 +14,10 @@ const Hook_useState_todo = () => {
             <table><tbody>
                 {list.length!=0?(
                     list.map((elem,indx)=>{
-                        <tr>
+                    return( <tr>
                             <td>{elem}</td>
                             <td><button>Remove</button></td>
-                        </tr>
+                            </tr>)
                     })
                 ):(<tr></tr>)}
                 </tbody></table>
