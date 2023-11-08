@@ -9,7 +9,7 @@ const Hook_useState_todo = () => {
 
     const change = ()=>{
         setObj(prevObj=>{...prevObj,
-        })
+            key3: 'new key3'})
     }
 
     return (
