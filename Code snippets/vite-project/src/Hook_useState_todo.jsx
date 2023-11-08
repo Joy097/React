@@ -18,7 +18,7 @@ const Hook_useState_todo = () => {
                             return(
                                 <tr>
                                     <td>{element}</td>
-                                    <td></td>
+                                    <td><button>Remove</button></td>
                                 </tr>
                             )
                         })
