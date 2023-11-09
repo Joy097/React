@@ -1,11 +1,11 @@
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
       <Routes>
-        <Route></Route>
+        <Route path='' element=''/>
       </Routes>
       </BrowserRouter>
     </div>
