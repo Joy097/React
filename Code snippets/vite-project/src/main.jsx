@@ -30,27 +30,6 @@ import React_Router_Dom from './React_Router_Dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CDRen_ifelse/>
-    <CDRen_switch/>
-    <CDRen_ternary/>
-    <CDRen_logi_and/>
-    <CDRen_Im_invoke/>
-    <PARENT/>
-    
-    <Res_2_evnt_Form/>
-    <Hook_useRef/>
-    <Hook_useRef_attr/>
-    <Hook_useRef_input/>
-    <Hook_useRef_css/>
-    <Hook_useRef_Mutable/>
-    <Hook_useRef_cache/>
-    <Hook_useState/>
-    <Hook_useState_obj/>
-    <Hook_useState_todo/>
-    <Hook_useState_form/>
-    <Hook_useEffect/>
-    <Hook_useEffect_promise/>
-    <Hook_useEffect_async/>
     <React_Router_Dom/>
   </React.StrictMode>,
 )
