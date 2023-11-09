@@ -24,6 +24,7 @@ import 'milligram/dist/milligram.css'
 import Hook_useEffect from './Hook_useEffect'
 import Hook_useEffect_promise from './Hook_useEffect_promise'
 import Hook_useEffect_async from './Hook_useEffect_async'
+import React_Router_Dom from './React_Router_Dom'
 
 //use if necessary <Res_2_evnt_Btn/> ( removed this for loading issue)
 
@@ -50,5 +51,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hook_useEffect/>
     <Hook_useEffect_promise/>
     <Hook_useEffect_async/>
+    <React_Router_Dom/>
   </React.StrictMode>,
 )
