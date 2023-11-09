@@ -3,6 +3,7 @@ import React from 'react';
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
+import Prod from "./pages/Prod";
 
 const React_Router_Dom = () => {
     return (
@@ -12,7 +13,7 @@ const React_Router_Dom = () => {
             <Route path="/" element={<Home/>}/>
             <Route path="*" element={<NotFound/>}/>
             <Route path="/profile" element={<Profile/>}/>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/product" element={<Prod/>}/>
             </Routes>
             </BrowserRouter>
         </div>
