@@ -9,6 +9,11 @@ const Hook_useState_todo = () => {
         setList([...list])
     }
 
+    const remItem = (indx)=>{
+        list.splice(indx,1)
+        setList([...list])
+    }
+
     return (
         <div>
             <table><tbody>
@@ -16,7 +21,7 @@ const Hook_useState_todo = () => {
                     list.map((elem,indx)=>{
                     return( <tr>
                             <td>{elem}</td>
-                            <td><button>Remove</button></td>
+                            <td><button onClick={()=>{remItem(indx)}}>Remove</button></td>
                             </tr>)
                     })
                 ):(<tr></tr>)}

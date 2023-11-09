@@ -19,6 +19,11 @@ import Hook_useRef_cache from './Hook_useRef_cache'
 import Hook_useState from './Hook_useState'
 import Hook_useState_obj from './Hook_useState_obj'
 import Hook_useState_todo from './Hook_useState_todo'
+import Hook_useState_form from './Hook_useState_form'
+import 'milligram/dist/milligram.css'
+import Hook_useEffect from './Hook_useEffect'
+import Hook_useEffect_promise from './Hook_useEffect_promise'
+import Hook_useEffect_async from './Hook_useEffect_async'
 
 //use if necessary <Res_2_evnt_Btn/> ( removed this for loading issue)
 
@@ -41,5 +46,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hook_useState/>
     <Hook_useState_obj/>
     <Hook_useState_todo/>
+    <Hook_useState_form/>
+    <Hook_useEffect/>
+    <Hook_useEffect_promise/>
+    <Hook_useEffect_async/>
   </React.StrictMode>,
 )
