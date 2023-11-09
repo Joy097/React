@@ -1,8 +1,8 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import notFound from './pages/notFound';
+import notFound from './pages/notFound.jsx';
 import home from './pages/home.jsx';
-import home from './pages/product';
-import profile from './pages/profile';
+import home from './pages/product.jsx';
+import profile from './pages/profile.jsx';
 
 const App = () => {
   return (
