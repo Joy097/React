@@ -10,10 +10,7 @@ const React_Router_Dom = () => {
         <div>
             <BrowserRouter>
             <Routes>
-                <Route path="/" element={<homepage/>} />
-                <Route path="/product" element={<productpage/> } />
-                <Route path="/profile" element={<profilepage/> } />
-                <Route path="*" element={<not_found/> } />
+                
             </Routes>
             </BrowserRouter>
         </div>
