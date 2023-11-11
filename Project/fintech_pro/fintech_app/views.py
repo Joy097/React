@@ -50,6 +50,6 @@ class UserView(APIView):
         if not token:
             raise AuthenticationFailed('Unauthenticated!')
         try:
-            payload = jwt
+            payload = jwt.decode(token, 'secret')
           
         return Response(token)
