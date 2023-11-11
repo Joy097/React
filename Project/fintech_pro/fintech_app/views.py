@@ -34,8 +34,10 @@ class Login(APIView):
         
         token = jwt.encode(payload, 'secret', algorithm='HS256')
         
-        response = Response({
+        response = Response()
+        
+        response.data = {
             'jwt' : token
-        })
+        }
         
         return response
