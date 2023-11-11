@@ -45,4 +45,5 @@ class Login(APIView):
 
 class UserView(APIView):
     def get(self, request):
-        token = re    
+        token = request.COOKIES.get('jwt')    
+        return Response()
