@@ -51,6 +51,7 @@ class UserView(APIView):
             raise AuthenticationFailed('Unauthenticated!')
         try:
             payload = jwt.decode(token, 'secret', algorithm=['HS256'])
-        except:
+        except jwt.ExpiredSignatureError:
             raise AuthenticationFailed('Unauthenticated')
+        user = User.objects.get([])
         return Response(token)
