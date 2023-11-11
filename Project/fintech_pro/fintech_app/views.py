@@ -44,4 +44,5 @@ class Login(APIView):
         return response
 
 class UserView(APIView):
-        def get()
+    def get(self, request):
+        token = re    
