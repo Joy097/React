@@ -1,0 +1,78 @@
+Features of Django:
+1. The admin site
+2. ORM
+3. Authentication
+4. Caching
+
+2 ways of server response:
+1. Give the whole html to client
+2. Give the data and let client generate the page (better to server more clients)
+
+For the second option, React, Angular and vue is used on the client side.
+Everyone uses this procedure now. In this case, server acts like the gateway to the
+data. We provide end points for the server. ex - /products, /orders.
+So, Django builds an API to provide data to the client. 
+
+django-admin commands:
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations: save changes and migrate
+    migrate: initialize migrations of db
+    optimizemigration
+    runserver: run the server and show page
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+Files:
+__init__.py: Define the directory as a package
+settings.py: application settings
+urls.py: urls for application
+asgi.py: used for deployment
+wsgi.py: used for deployment
+manage.py: wraper around Django-admin. So, we can use manage.py instead of manage.py
+writing 'django-admin command'. But django-admin donot know about settings.
+So, we use manage.py instead.
+
+# python manage.py runserver 9000(Default 8000)
+
+We can find all the apps in the setting.py under INSTALLED APPS 
+ 
+'django.contrib.admin',   - the admin app gives the admin interface to manage data
+'django.contrib.auth', - auth app is for authenticating users.
+'django.contrib.contenttypes',
+'django.contrib.sessions', - this is a legacy app. So, no need.
+'django.contrib.messages', - This app is used for displaying onetime notification to user
+'django.contrib.staticfiles', - This is used for servinf static files(images, css etc.)
+
+#Print Hello World:
+1. Create an app
+2. List the app i the INSTALLED_APP is settings.py
+3. Create a new function inside views.py of the application:
+ - import HttpResponse from django.http using 'from django.http import HttpResponse'
+ - create a new function 'def say_hello(request): return HttpResponse('Hello World')'
+4. map the views.py to urls.py of application folder:
+ - create new file named urls.py inside the app folder
+ - import path: from django.urls import path 
+ - import views from current folder: from . import views
+ - put urls by referencing the function: urlpatterns = [path('hello/', views.say_hello)]
+5. add your application url to the url.py of environment folder:
+ -  This always goes to the app properties: 'path('beep/', include('beep.urls'))'
+
+# to show template or html file, do the same as above. Add a folder named Templates and put home.html. Then just in the views, change and put a function 'def say_hello(request): return render(request,'home.html')'

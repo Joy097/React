@@ -1,0 +1,7 @@
+python -m venv env
+.\env\Scripts\activate
+pip install django
+pip install djangorestframework
+django-admin startproject project
+cd project
+pip install requests
